@@ -1,0 +1,28 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Generated projects (one timestamped folder per run)
+generated_projects/
+generated_project/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
