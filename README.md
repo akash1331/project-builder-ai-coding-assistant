@@ -143,9 +143,3 @@ The coder agent is sandboxed to this folder and cannot write outside it. The exa
 - **[uv](https://docs.astral.sh/uv/)** — environment and dependency management
 
 ---
-
-## 📄 License
-
-Copyright © Akash. All rights reserved.
-
-This is a private project and is not intended for public distribution.
