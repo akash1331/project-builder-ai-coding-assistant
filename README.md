@@ -1,4 +1,4 @@
-# 🛠️ Project Builder – AI Coding Assistant
+# Project Builder – AI Coding Assistant
 
 **Project Builder – AI Coding Assistant** is an AI-powered coding assistant built with [LangGraph](https://github.com/langchain-ai/langgraph) and [Azure OpenAI](https://learn.microsoft.com/azure/ai-services/openai/).
 
@@ -6,7 +6,7 @@ It works like a small multi-agent development team: you describe the app you wan
 
 ---
 
-## 🏗️ How It Works
+## How It Works
 
 The app is a three-stage [LangGraph](https://github.com/langchain-ai/langgraph) state machine. Each stage is an agent backed by the same Azure OpenAI model:
 
@@ -31,7 +31,7 @@ All generated code is written to a **new, timestamped folder per run** — see [
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 .
@@ -48,7 +48,7 @@ All generated code is written to a **new, timestamped folder per run** — see [
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -110,7 +110,7 @@ uv run python main.py --recursion-limit 200
 
 ---
 
-## 📦 Output
+## Output
 
 Each run creates a **new folder** so previous projects are never overwritten:
 
@@ -126,7 +126,7 @@ The coder agent is sandboxed to this folder and cannot write outside it. The exa
 
 ---
 
-## 🧪 Example Prompts
+## Example Prompts
 
 - Create a to-do list application using HTML, CSS, and JavaScript.
 - Create a simple calculator web application.
@@ -134,7 +134,7 @@ The coder agent is sandboxed to this folder and cannot write outside it. The exa
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - **[LangGraph](https://github.com/langchain-ai/langgraph)** — multi-agent orchestration / state machine
 - **[LangChain](https://github.com/langchain-ai/langchain)** + **langchain-openai** — LLM integration and structured output
